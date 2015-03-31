@@ -1,0 +1,7 @@
+User Story — Battleship
+
+
+As a player, I want to be able to be assigned two battleships.
+As a player, I want to be able to choose coordinates on a map to see if I hit a battleship.
+
+As a player, I want to choose coordinates on a map and see if I hit a battleship.
