@@ -23,7 +23,7 @@ puts "Battleship!"
 # puts "You sunk my battleship!"
 
 # when ship_1 && ship_2 are empty
-# puts "Thank you for playing."
+# puts "Thank you for playing.
 
 
 
@@ -33,18 +33,18 @@ puts "Battleship!"
 
 
 
-require 'pry'
-
-
-  def board
-      grid = Hash.new
-        ('a'..'j').each do |letter|
-          (1..10).each do |i|
-            grid["#{letter}#{i}"] = "#{letter}#{i} "
-              print grid["#{letter}#{i}"]
-          end
-          puts
-        end
-  end
-
-binding.pry
+# require 'pry'
+#
+#
+#   def board
+#       grid = Hash.new
+#         ('a'..'j').each do |letter|
+#           (1..10).each do |i|
+#             grid["#{letter}#{i}"] = "#{letter}#{i} "
+#               print grid["#{letter}#{i}"]
+#           end
+#           puts
+#         end
+#   end
+#
+# binding.pry
